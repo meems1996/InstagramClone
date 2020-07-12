@@ -1,0 +1,20 @@
+.iconsDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.heartDiv {
+    background-color: yellowgreen;
+    width: 50%;
+    display: flex;
+    padding-left: 10px;
+    justify-content: flex-start;
+}
+
+.bookmarkDiv {
+    background-color: thistle;
+    width: 50%;
+    display: flex;
+    padding-right: 10px;
+    justify-content: flex-end;
+}

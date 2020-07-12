@@ -1,0 +1,74 @@
+#suggestionsBox {
+    border: none;
+    width: 400px;
+    position: fixed;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileImageAndUserName {
+    display: flex;
+    flex-direction: row;
+}
+
+#image {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#usernameAndName {
+    width: 80%;
+    line-height: 0;
+    margin-left: 10px;
+}
+h6 {
+    text-align: left;
+}
+h5 {
+    text-align: left;
+}
+
+#suggestions_div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#suggestionsText {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+#suggestionsFont {
+    color: grey;
+    font-size: 15px;
+}
+
+#seeAll {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.suggestedUsersDiv {
+    padding-left: 15px;
+    text-align: left;
+    background-color: lightcoral;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#suggestionsImage {
+    cursor: pointer;
+    margin-bottom: 15px;
+    width: 35px;
+    height: 35px;
+}

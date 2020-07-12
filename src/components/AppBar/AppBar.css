@@ -1,0 +1,72 @@
+#appbar {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    place-items: center;
+    grid-template-columns: 35% 33% 25%;
+    top: 0;
+    margin: auto;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+
+#div-title {
+    background-color: white;
+}
+
+#title:hover {
+    cursor: pointer;
+}
+
+#div-buttons {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 18px;
+}
+
+#fihome-icon:hover {
+    cursor: pointer;
+}
+
+#appbarimage {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+#appbarimage:focus {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#fisend-icon:hover {
+    cursor: pointer;
+}
+
+#ficircle-icon:hover {
+    cursor: pointer;
+}
+
+#ficompass-icon:hover {
+    cursor: pointer;
+}
+
+#fiheart-icon:hover {
+    cursor: pointer;
+}
+
+#appbar1 {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}

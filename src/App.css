@@ -2,37 +2,152 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#postComponent {
+  border-radius: 4px;
+  height: auto;
+  width: 550px;
+  border: 1px solid rgb(219,219,219);
+  margin: 10px;
+  margin-bottom: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#fimorehorizontal {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.userNameDisplay {
+  cursor: pointer;
+}
+
+.moreDiv {
+  float: right;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.profileAndUsername{
+  float: left;
+  display: grid;
+  width: 50%;
+  grid-auto-flow: column;
+  grid-template-columns: 90px 50px;
+  align-items: center;
+}
+
+.profilePhotoOn {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.storiesName {
+  margin-top: 0;
+  font-size: small;
+}
+
+.postImages {
+  width: 550px;
+  height: auto;
+  border-radius: 0;
+  border-top: 1px solid rgb(219,219,219);
+  border-bottom: 1px solid rgb(219,219,219);
+}
+
+img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.circle {
+  padding: 2px;
+  border:2px solid purple;
+  height:60px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:60px;
+}
+
+.addCommentDiv {
+  margin-top: 0;
+  border-top: 1px solid rgb(239,239,239);
+}
+
+#userStoriesComponent {
+  border-radius: 4px;
+  padding-left: 20px;
+  margin-left: 360px;
+  border: 1px solid rgb(219,219,219);
+  height: 100px;
+  margin-top: 80px;
+  width: 530px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fit, minmax(1px, 2fr));
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.appBar {
+  /* overflow: hidden; */
+  position: fixed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#storiesComponent {
+  padding-left: 350px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.commentDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment {
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.commentHeart {
+  display: flex;
+  width: 10%;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.fiHeartComments {
+  cursor: pointer;
+}
+
+.bodyOfApp {
+  background-color: rgb(250, 250, 250);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#bodyOfPosts {
+  width: 60%;
+  justify-content: end;
+}
+
+#suggestionsDiv {
+  width: 40%;
+  justify-self: start;
+}
+
+#suggestionsBox {
+  border: 1px solid rgb(219,219,219);
+  width: 400px;
+  position: fixed;
+  height: 600px;
+  margin-top: 80px;
+  margin-left: 10px;
 }
