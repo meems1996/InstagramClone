@@ -45,12 +45,18 @@ export default function SuggestionsBox() {
                 Object.entries(suggestions).map((key) => {
                     return (
                         <div key={key[0]} className='suggestedUsersDiv'>
-                            <div> </div>
-                            <img id='suggestionsImage' src={key[1].profileImage}></img>
+                            <div id='suggestionsImageDiv'>
+                                <img id='suggestionsImage' src={key[1].profileImage}></img>
+                            </div>
 
-                            <div> </div>
-                            <div> </div>
+                            <div id='suggestionsNameUserNameDiv'>
+                                <h5>{key[0]}</h5>
+                                <h6 id='suggestedForYou'>Suggested for you</h6>
+                            </div>
 
+                            <div id='suggestionsFollowButtonDiv'>
+                                <button id='followButton'>Follow</button>
+                            </div>
                         </div>
                     );
                 })
