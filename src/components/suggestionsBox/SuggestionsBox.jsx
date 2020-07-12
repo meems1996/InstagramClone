@@ -50,7 +50,7 @@ export default function SuggestionsBox() {
                             </div>
 
                             <div id='suggestionsNameUserNameDiv'>
-                                <h5>{key[0]}</h5>
+                                <h5 id='suggestedForYouUsername'>{key[0]}</h5>
                                 <h6 id='suggestedForYou'>Suggested for you</h6>
                             </div>
 

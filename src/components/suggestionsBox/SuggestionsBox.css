@@ -1,6 +1,6 @@
 #suggestionsBox {
     border: none;
-    width: 400px;
+    width: 300px;
     position: fixed;
     height: 600px;
     margin-top: 80px;
@@ -75,13 +75,11 @@ h5 {
 }
 
 #suggestionsImageDiv {
-    background-color: royalblue;
     display: flex;
     width: 10%;
 }
 
 #suggestionsNameUserNameDiv {
-    background-color: rosybrown;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
